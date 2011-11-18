@@ -22,3 +22,11 @@ isource.each do |isource|
 end
 
 puts "end of line ... \n\n"
+
+
+
+
+# Final output is to look like the following:
+# HTML sufix=AT.de
+# isource=aut
+# /music/album/indaba-music?isource=aut_mhp_partnerCollections_Indaba
