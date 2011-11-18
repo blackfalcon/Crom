@@ -1,10 +1,10 @@
 #!/usr/bin/env ruby
 
 # To run this file:
-#   Save this file as "url.rb"
-#   'cd' into whatever directory has the url.rb file
+#   Save this file as "crom.rb"
+#   'cd' into whatever directory has the crom.rb file
 #    To run it:
-#      ruby url.rb
+#      ruby crom.rb
 #
 
 url_prefix = "/music/album/indaba-music?isource="
