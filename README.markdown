@@ -11,8 +11,8 @@ The software provided is in beta development.  There are no guarantees or warran
 ## Quick Start
 
     $ git clone git@github.com:blackfalcon/Crom.git
-    $ cd Crom/
-    $ ruby Crom.rb
+    $ cd crom/
+    $ ruby crom.rb
 
 ## Author
 Crom is written by [Dale Sande][dale_sande].<br>
