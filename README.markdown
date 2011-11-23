@@ -8,6 +8,10 @@ The software provided is in beta development.  There are no guarantees or warran
 1. Update app to pass in arguments so that variables are not hardcoded
 1. Include hook to open each file needed to allow for easy insertion of URL
 
+## To use
+1. Copy/Clone Crom.rb file
+1. In directory, from the command line, type ruby Crom.rb
+
 ## Author
 Crom is written by [Dale Sande][dale_sande].<br>
 Dale is a UI Engineer with [Getty Images][gettyimages.com].
