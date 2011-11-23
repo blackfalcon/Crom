@@ -1,18 +1,29 @@
 # Crom
 A little app that assists a user to create a series of repetitive URLs.
 
+Simply run the app and pass in two arguments, the URL prefix and the URL suffix. 
+
 ## Beta version version
 The software provided is in beta development.  There are no guarantees or warranties of any kind when using this software.  Use at your own risk at this time.
-
-## The road to 1.0
-1. Update app to pass in arguments so that variables are not hardcoded
-1. Include hook to open each file needed to allow for easy insertion of URL
 
 ## Quick Start
 
     $ git clone git@github.com:blackfalcon/Crom.git
     $ cd crom/
-    $ ruby crom.rb
+    $ ruby crom.rb 'url_prefix' 'url_sufix'
+    
+## Example
+	$ ruby crom.rb /music/album/indaba-music _mhp_partnerCollections_Indaba
+	
+	returns
+	
+	?isource=aut
+	/music/album/indaba-music?isource=aut_mhp_partnerCollections_Indaba 
+
+	?isource=aus
+	/music/album/indaba-music?isource=aus_mhp_partnerCollections_Indaba
+	
+	etc ...
 
 ## Author
 Crom is written by [Dale Sande][dale_sande].<br>
