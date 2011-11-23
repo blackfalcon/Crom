@@ -7,16 +7,7 @@
 #      ruby crom.rb
 #
 
-
-# Final output is to look like the following:
-# HTML sufix=AT.de
-# isource=aut
-# /music/album/indaba-music?isource=aut_mhp_partnerCollections_Indaba
-
-# exmaples
-#url_prefix = "/music/album/indaba-music"
-#url_sufix = "_mhp_partnerCollections_Indaba"
-
+# supported Loc :isource => HTML suffix
 isource = {
 	:aut => 'AT.de',
 	:aus => 'AU.en-US',
@@ -57,9 +48,9 @@ puts "\n\nI am an accounting program, I don't play games? \n\n"
 isource.each do |key, value|
   puts "HTML suffix=#{value}"
   key = key.to_s.gsub '_', '-'
-  foo = "isource=#{key}"
-  puts foo
-  puts "#{url_prefix}?#{foo}#{url_sufix} \n\n"
+  isource_code = "isource=#{key}"
+  puts isource_code
+  puts "#{url_prefix}?#{isource_code}#{url_sufix} \n\n"
 end
 
 puts "end of line ... \n\n"

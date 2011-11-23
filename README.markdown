@@ -1,7 +1,7 @@
 # Crom
-A little app that assists a user to create a series of repetitive URLs.
+A little app that assists a user to create a series of repetitive URLs for loc purposes.  Simply run the app and pass in two arguments, the URL prefix and the URL suffix. 
 
-Simply run the app and pass in two arguments, the URL prefix and the URL suffix. 
+By stating the prefix and suffix of the URL, Crom will inject the appropriate click tracking code per localization, print out the suffix of the HTML file that needs to be updated with the localized URL as well as state the click code that inserted into the URL.  
 
 ## Quick Start
 
@@ -10,20 +10,20 @@ Simply run the app and pass in two arguments, the URL prefix and the URL suffix.
     $ ruby crom.rb 'url_prefix' 'url_sufix'
     
 ## Example
-	$ ruby crom.rb /music/album/indaba-music _mhp_partnerCollections_Indaba
+	$ ruby crom.rb /Footage/Frontdoor/signature _Home_ftv_hero_Signature
 	
 	returns
 	
 	?isource=aut
-	/music/album/indaba-music?isource=aut_mhp_partnerCollections_Indaba 
+	/Footage/Frontdoor/signature?isource=aut_Home_ftv_hero_Signature 
 
 	?isource=aus
-	/music/album/indaba-music?isource=aus_mhp_partnerCollections_Indaba
+	/Footage/Frontdoor/signature?isource=aus_Home_ftv_hero_Signature
 	
 	etc ...
 
 ## Author
-Crom is written by [Dale Sande][dale_sande].<br>
+Crom is written by [Dale Sande][dale_sande].
 
 ## Beta version version
 The software provided is in beta development.  There are no guarantees or warranties of any kind when using this software.  Use at your own risk at this time.
