@@ -24,7 +24,6 @@ Simply run the app and pass in two arguments, the URL prefix and the URL suffix.
 
 ## Author
 Crom is written by [Dale Sande][dale_sande].<br>
-Dale is a UI Engineer with [Getty Images][gettyimages.com].
 
 ## Beta version version
 The software provided is in beta development.  There are no guarantees or warranties of any kind when using this software.  Use at your own risk at this time.
@@ -38,8 +37,7 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-[dale_sande]: http://anotheruiguy.mbreo.com
-[gettyimages.com]: http://www.gettyimages.com
+[dale_sande]: http://anotheruiguy.com
 
 
 
