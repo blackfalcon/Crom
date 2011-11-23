@@ -3,9 +3,6 @@ A little app that assists a user to create a series of repetitive URLs.
 
 Simply run the app and pass in two arguments, the URL prefix and the URL suffix. 
 
-## Beta version version
-The software provided is in beta development.  There are no guarantees or warranties of any kind when using this software.  Use at your own risk at this time.
-
 ## Quick Start
 
     $ git clone git@github.com:blackfalcon/Crom.git
@@ -28,6 +25,9 @@ The software provided is in beta development.  There are no guarantees or warran
 ## Author
 Crom is written by [Dale Sande][dale_sande].<br>
 Dale is a UI Engineer with [Getty Images][gettyimages.com].
+
+## Beta version version
+The software provided is in beta development.  There are no guarantees or warranties of any kind when using this software.  Use at your own risk at this time.
 
 ## License
 Copyright (c) 2011 Dale Sande<br>
