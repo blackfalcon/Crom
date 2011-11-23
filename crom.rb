@@ -17,6 +17,9 @@ isource = %w[aut aus bel-en bel-fr can-en can-fr che-de che-fr che-it usa-en usa
 puts "\n\n \n I am an accounting program \n\n"
 
 isource.each do |isource|
+  html_file.each do |html_file|
+    puts "HTML=#{html_file}"
+  end
   puts "isource=#{isource}"
   puts "#{url_prefix}#{isource}#{url_sufix} \n\n"
 end
