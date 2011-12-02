@@ -54,7 +54,3 @@ isource.each do |key, value|
 end
 
 puts "end of line ... \n\n"
-
-
-
-
