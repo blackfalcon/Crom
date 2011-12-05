@@ -17,16 +17,14 @@ See the code for the array of isource codes supported. If you need more, simply 
     $ ruby crom.rb url_prefix url_sufix
 
 #Sark
-A wonder 'feature' of Alfresco is that editable sections need to be chopped up into 'regions'. To address this two things need to happen. 
+A wonderful 'feature' of Alfresco is that editable sections need to be chopped up into 'regions'. To address this two things need to happen. 
 
-1.	You need to create an XML view file that defines the XML region tags in the template. 
-1.	example: <hgroup>/CMS/Pages/file_path/Regions/hgroup_COM.en-US.html</hgroup>
-1.	Next you need to create all these region.html files.
-1.	example: hgroup_COM.en-US.html
+1.	You need to create an XML view file that defines the XML region tags in the template.  (example: <hgroup>/CMS/Pages/file_path/Regions/hgroup_COM.en-US.html</hgroup>)
+1.	Next you need to create all these region.html files. (example: hgroup_COM.en-US.html)
 	
-Depending on complexity of the template, there can easily be as many 20, 30, etc ... regions. Manually doing this sucks.  
+Depending on complexity of the template, there can easily be as many 20, 30, etc ... regions. Manually doing this, sucks.  
 
-Sark is still in development. Right now the number of variables are hard coded (20). If not all variables are not set at rune time, the app will spit out empty strings. I know, that sucks. 
+Sark is still in development. Right now the number of variables are hard coded (20). If not all variables are not set at rune time, the app will spit out empty strings. I know, FAIL. 
 
 Planning on updating sark.rb so that the passed in variables are unlimited and there are no empty strings in the output.
 
