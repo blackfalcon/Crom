@@ -1,0 +1,14 @@
+Holiday Music
+/music/collection/christmas-holidays?[isource=usa-en]_mhp_spotlightMusic_ChristmasHolidays
+
+Corporate projects
+/music/album/jazz-brunch?[isource=usa-en]_mhp_spotlightMusic_CorporateProjects
+
+Hip Hop
+/music/album/hip-hop-instrumentals?[isource=usa-en]_mhp_spotlightMusic_HipHop
+
+Classical Greatest Hits
+/music/album/classical-greatest-hits?[isource=usa-en]_mhp_spotlightMusic_ClassicalGreatestHits
+
+Indie Rock Spirit
+/music/album/indie-spirit?[isource=usa-en]_mhp_spotlightMusic_IndieRockSpirit

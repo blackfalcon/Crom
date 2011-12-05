@@ -1,26 +1,45 @@
-# Crom
-A little app that assists a user to create a series of repetitive URLs for loc purposes.  Simply run the app and pass in two arguments, the URL prefix and the URL suffix. 
+Little apps that assists a user to create a series of repetitive URLs for loc purposes in Alfresco.  Simply run the app and pass in arguments. 
 
-By stating the prefix and suffix of the URL, Crom will inject the appropriate click tracking code per localization, print out the suffix of the HTML file that needs to be updated with the localized URL as well as state the click code that inserted into the URL.  
+#Crom
+One of the wonderful things I get to do on a daily basis is craft URLs with click tracking codes. 
+	example: /footage/frontdoor/istockfootage?isource=usa_Home_ftv_hero_istockfootage_B
+	
+The best part is, if there are 12 links in a widget and this widget is duplicated into 17 region files, this is a lot of copying and pasting.  This is where crom comes in. 
 
-## Quick Start
+By stating the prefix and suffix of the URL up to the isource code, Crom will inject the appropriate click tracking code per localization, print out the suffix of the HTML file that needs to be updated with the localized URL as well as state the click code that inserted into the URL. 
+
+See the code for the array of isource codes supported. If you need more, simply add to the array.
+
+## Quick Start - Crom
 
     $ git clone git@github.com:blackfalcon/Crom.git
     $ cd crom/
-    $ ruby crom.rb 'url_prefix' 'url_sufix'
-    
-## Example
-	$ ruby crom.rb /Footage/Frontdoor/signature _Home_ftv_hero_Signature
-	
-	returns
-	
-	?isource=aut
-	/Footage/Frontdoor/signature?isource=aut_Home_ftv_hero_Signature 
+    $ ruby crom.rb url_prefix url_sufix
 
-	?isource=aus
-	/Footage/Frontdoor/signature?isource=aus_Home_ftv_hero_Signature
+#Sark
+A wonder 'feature' of Alfresco is that editable sections need to be chopped up into 'regions'. To address this two things need to happen. 
+
+1.You need to create an XML view file that defines the XML region tags in the template. 
+	1. example: <hgroup>/CMS/Pages/file_path/Regions/hgroup_COM.en-US.html</hgroup>
+1.Next you need to create all these region.html files.
+	1. example: hgroup_COM.en-US.html
 	
-	etc ...
+Depending on complexity of the template, there can easily be as many 20, 30, etc ... regions. Manually doing this sucks.  
+
+Sark is still in development. Right now the number of variables are hard coded (20). If not all variables are not set at rune time, the app will spit out empty strings. I know, that sucks. 
+
+Planning on updating sark.rb so that the passed in variables are unlimited and there are no empty strings in the output.
+
+## Quick Start - Sark
+
+    $ git clone git@github.com:blackfalcon/Crom.git
+    $ cd crom/
+    $ ruby sark.rb url_path region region region region region region region region region region region region region region region region region region region region
+
+
+
+
+
 
 ## Author
 Crom is written by [Dale Sande][dale_sande].
