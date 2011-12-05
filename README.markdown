@@ -6,7 +6,7 @@ One of the wonderful things I get to do on a daily basis is craft URLs with clic
 	
 The best part is, if there are 12 links in a widget and this widget is duplicated into 17 region files, this is a lot of copying and pasting.  This is where crom comes in. 
 
-By stating the prefix and suffix of the URL up to the isource code, Crom will inject the appropriate click tracking code per localization, print out the suffix of the HTML file that needs to be updated with the localized URL as well as state the click code that inserted into the URL. 
+By stating the prefix up to the isource code and suffix of the URL, Crom will inject the appropriate click tracking code per localization, print out the URL and the suffix of the HTML file and state the click code that inserted into the URL. 
 
 See the code for the array of isource codes supported. If you need more, simply add to the array.
 
