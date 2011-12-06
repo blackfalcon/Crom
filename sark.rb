@@ -22,3 +22,23 @@ views.each do |key, value|
 end
 
 puts "\nend of line ... \n\n"
+
+
+################################
+
+# MKDIR = ARGV[0]
+# views = {:VIEW_VAR => ARGV[1]}
+# 
+# puts "\n\nI am an accounting program, I don't play games? \n\n"
+# 
+# ARGV.each do |value|
+# 	puts "<#{value}>/CMS/Pages/#{MKDIR}/Regions/#{value}_COM.en-US.html</#{value}>"
+# end
+# 
+# puts "\n"
+# 
+# views.each do |value|
+#   puts "#{value}_COM.en-US.html"
+# end
+# 
+# puts "\nend of line ... \n\n"
