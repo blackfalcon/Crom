@@ -37,20 +37,24 @@ isource = {
 	}
 
 # args have default values for testing and example sake	
-ARGV[0] ||= "/Footage/Frontdoor/signature"
-ARGV[1] ||= "_Home_ftv_hero_Signature"
+url_prefix = ARGV[0] || "/Footage/Frontdoor/signature"
+url_sufix = ARGV[1] || "_Home_ftv_hero_Signature"
 
-url_prefix = ARGV[0]
-url_sufix = ARGV[1]
+built_urls = isource.map do |key, value|
+  isource_code = "isource=#{key.to_s.gsub('_','-')}"
+  
+  %{
+HTML suffix=#{value}
+isource#{isource_code}
+#{url_prefix}?#{isource_code}#{url_sufix}\n\n}
 
-puts "\n\nI am an accounting program, I don't play games? \n\n"
-
-isource.each do |key, value|
-  puts "HTML suffix=#{value}"
-  key = key.to_s.gsub '_', '-'
-  isource_code = "isource=#{key}"
-  puts isource_code
-  puts "#{url_prefix}?#{isource_code}#{url_sufix} \n\n"
 end
 
-puts "end of line ... \n\n"
+puts %{
+  
+  I am an accounting program, I don't play games!
+
+  #{built_urls.join("")}
+
+  end of the line ...
+}
